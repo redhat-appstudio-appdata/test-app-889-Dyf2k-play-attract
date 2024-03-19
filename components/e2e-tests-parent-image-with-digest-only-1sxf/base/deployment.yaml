@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-with-digest-only-1sxf
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-889/e2e-tests-parent-image-with-digest-only-1sxf@sha256:6a5ea09c92cf478584077a781216556919e1eda2ed6e11818a7f4ef8a44d7639
         imagePullPolicy: Always
         name: container-image
         ports:
